@@ -1,0 +1,13 @@
+
+/* Messagebox declutter (Removes the gift and GIF picker buttons on the messagebox) */
+[aria-label="Send a gift"], [aria-label="Open GIF picker"],
+/* Home declutter (removes Nitro and Library options) */
+[href="/store"], [href="/library"],
+/* Chat toolbar declutter (Removes Help, Mentions and Notifications button)*/
+[href="https://support.discordapp.com"], [role="switch"], [aria-label="Mentions"]
+/* Notes removal (I mean who uses this anyways? */
+.note-3kmerW.note-3HfJZ5, .bodyTitle-Y0qMQz.marginBottom8-AtZOdT.size12-3R0845:nth-last-of-type(2)
+{ display: none; } 
+/* Search fix (shifts the search box to the left so it looks way cleaner)*/
+.container-3ayLPN.elevationBorderHigh-2WYJ09
+{position: relative; right: 50px;}
